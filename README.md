@@ -53,19 +53,13 @@ This project is my **personal portfolio website**, It merges modern design, smoo
 ```bash
 git clone https://github.com/RifanDK/personal-website.git
 cd personal-website
-```bash
-
-
-
-
-
-
+```
 
 📬 Contact Me
 
 If you’d like to collaborate, discuss opportunities, or just connect:
 
-📧 Email: Rifan Dana Kusuma@gmail.com
+📧 Email: rifandanakusuma@gmail.com
 
 💼 LinkedIn: linkedin.com/in/rifan-dana-kusuma-472341251
 
