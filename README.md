@@ -1,16 +1,85 @@
-# React + Vite
+# 🧑‍💻 Rifan Dana Kusuma — Interactive Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+> ✨ **A modern and responsive portfolio website built with React, Tailwind CSS, and Framer Motion — showcasing my journey, skills, and projects in IoT, Machine Learning, and Computer Vision.**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Category | Technologies |
+|-----------|---------------|
+| **Frontend Framework** | React.js (Vite) |
+| **Styling** | Tailwind CSS |
+| **Animation** | Framer Motion |
+| **Icons** | Lucide React |
+| **Deployment** | GitHub Pages / Vercel |
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌟 Features
+
+✅ Smooth section-based navigation with scroll detection  
+✅ Animated transitions between sections (Framer Motion)  
+✅ Responsive layout (mobile-first)  
+✅ Dynamic content powered by structured data  
+✅ Contact section with GitHub, LinkedIn, and Email links  
+
+---
+
+## 🧩 Project Structure
+
+src/
+├── assets/ # Images (profile, background, etc.)
+├── components/ # Reusable UI components
+├── Portofolio.jsx # Main portfolio page
+├── main.jsx # Entry point
+└── index.css # Tailwind and global styles
+
+
+---
+
+## 🧠 About This Project
+
+This project is my **personal portfolio website**, It merges modern design, smooth animations, and modular React architecture to build an elegant digital presence.
+
+> 💡 *Focus Area:* IoT, Machine Learning, and Computer Vision — bringing intelligent systems into real-world applications.
+
+---
+
+## ⚙️ Installation & Setup
+
+1️⃣ **Clone this repository**
+```bash
+git clone https://github.com/RifanDK/personal-website.git
+cd personal-website
+
+
+📬 Contact Me
+
+If you’d like to collaborate, discuss opportunities, or just connect:
+
+📧 Email: Rifan Dana Kusuma@gmail.com
+
+💼 LinkedIn: linkedin.com/in/rifan-dana-kusuma-472341251
+
+🐙 GitHub: github.com/RifanDK
+
+🧾 License
+
+This project is open source and available under the MIT License
+.
+
+💫 Acknowledgements
+
+Special thanks to:
+
+Framer Motion
+ for smooth React animations
+
+Lucide Icons
+ for the modern icon set
+
+Tailwind CSS
+ for utility-first styling
+
