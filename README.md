@@ -53,7 +53,7 @@ This project is my **personal portfolio website**, It merges modern design, smoo
 ```bash
 git clone https://github.com/RifanDK/personal-website.git
 cd personal-website
-```bash
+```
 
 📬 Contact Me
 
