@@ -59,7 +59,7 @@ cd personal-website
 
 If you’d like to collaborate, discuss opportunities, or just connect:
 
-📧 Email: Rifan Dana Kusuma@gmail.com
+📧 Email: rifandanakusuma@gmail.com
 
 💼 LinkedIn: linkedin.com/in/rifan-dana-kusuma-472341251
 
