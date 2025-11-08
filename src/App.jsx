@@ -141,7 +141,7 @@ const PORTOFOLIO_DATA = {
     }
   ],
   contact: {
-    email: "email@example.com",
+    email: "rifandanakusuma@gmail.com",
     github: "https://github.com/RifanDK",
     linkedin: "https://www.linkedin.com/in/rifan-dana-kusuma-472341251/"
   }
