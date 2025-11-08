@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail, ExternalLink, Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 // ============================================
-// METADATA - Edit bagian ini untuk mengubah konten
+// METADATA
 // ============================================
 const PORTOFOLIO_DATA = {
   overview: {
@@ -33,57 +33,117 @@ const PORTOFOLIO_DATA = {
   projects: [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "Platform jual-beli online dengan fitur payment gateway dan real-time chat",
-      tech: "React, Node.js, MongoDB",
-      link: "https://github.com/yourusername/project1"
+      title: "Smart Door System Using Face Recognition and Gesture Control",
+      description: "Research project developing an intelligent door access system with face recognition using dlib and MLP architecture based on 68 facial landmarks, plus gesture control using MediaPipe and LSTM for training models",
+      tech: "Python, dlib, MediaPipe, LSTM, Microcontroller",
+      link: "https://drive.google.com/drive/folders/1VVEFWgm-X_hJc1zEYoUeatviUcp1D--S?usp=sharing"
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "Aplikasi manajemen tugas dengan fitur kolaborasi tim",
-      tech: "Vue.js, Firebase, Tailwind CSS",
-      link: "https://github.com/yourusername/project2"
+      title: "DemiApp - Navigator Application for DemiWatch",
+      description: "Android navigation application designed for dementia patients, featuring in-app navigation to guide users to destinations and home, integrated with Google Cloud services",
+      tech: "Kotlin, Android Studio, Google Maps API, Places API, Routes API, Google Cloud",
+      link: "https://drive.google.com/drive/folders/1cXjpjkupEQVdUzjEu-A4m8u7c00kkF-L?usp=sharing"
     },
     {
       id: 3,
-      title: "AI Chatbot",
-      description: "Chatbot berbasis AI untuk customer service otomatis",
-      tech: "Python, TensorFlow, Flask",
-      link: "https://github.com/yourusername/project3"
+      title: "Backend for Mobile Camera Filter App",
+      description: "Designed and developed microservices backend for a mobile camera filter application with authentication, routing, and request handling, deployed on Vercel",
+      tech: "Node.js, Express, Google Firestore, NoSQL, Vercel",
+      link: "https://drive.google.com/drive/folders/1i3A0oz61JVHuYmkf5IvIVEoKccujAdGo?usp=sharing"
+    },
+    {
+      id: 4,
+      title: "Gold Price Predictor Using Machine Learning",
+      description: "Machine learning system for predicting gold prices with real-time data streaming, processing, and model training with evaluation metrics",
+      tech: "Python, Apache Kafka, PostgreSQL, Docker, Machine Learning",
+      link: "https://drive.google.com/drive/folders/1ibjPBUj4lz45yamN-bg_j9VkXor1x33o?usp=sharing"
+    },
+    {
+      id: 5,
+      title: "Server Logging and Monitoring System",
+      description: "Comprehensive monitoring solution using Prometheus and Grafana for collecting metrics, and ELK Stack for log processing and visualization from Nginx and Squid servers",
+      tech: "Prometheus, Grafana, ELK Stack, Nginx, Squid, Kibana, debian server",
+      link: "https://drive.google.com/drive/folders/1X3huHKlQNvLdO-HliMNgexuLzdV3tpJ1?usp=sharing"
+    },
+    {
+      id: 6,
+      title: "Startup Fundability Classification Model",
+      description: "Deep Neural Network model for classifying startup fundability using startup data from America and Europe, achieving 88% accuracy through data preprocessing and training",
+      tech: "Python, DNN, Machine Learning, Data Analysis",
+      link: "https://drive.google.com/drive/folders/1IZ_7J83uQ4hgI_JudW41ef3NS9OtEfIs?usp=sharing"
+    },
+    {
+      id: 7,
+      title: "IoT Egg Counter Sensor for Smart Fridge",
+      description: "Smart home IoT device that monitors egg quantity in refrigerators using microswitch sensors, integrated with Home Assistant via MQTT broker for real-time state visualization",
+      tech: "Microcontroller, MQTT, Home Assistant, IoT",
+      link: "https://drive.google.com/drive/folders/1SaYyobQAzERt0n1uRVCFIHTfyEs8ak2i?usp=sharing"
+    },
+    {
+      id: 8,
+      title: "Local Hosted AI Platform",
+      description: "Self-hosted AI platform using open-source LLM models with Ollama server, integrated with OpenRouter API and OpenWebUI for a complete local AI solution",
+      tech: "Ollama, LLM, OpenRouter API, OpenWebUI, Python",
+      link: "https://github.com/yourusername/local-ai-platform"
+    },
+    {
+      id: 9,
+      title: "Web Scheduler App (Private Project)",
+      description: "Full-stack scheduler application designed for organization and team usage with comprehensive database design and service workflow",
+      tech: "React, Node.js, PostgreSQL, Fullstack",
+      link: "https://github.com/yourusername/scheduler-app"
     }
   ],
   workExperience: [
     {
       id: 1,
-      company: "Tech Company Indonesia",
-      position: "Full Stack Developer",
-      startYear: 2022,
-      endYear: "Sekarang",
+      company: "Internship at PT. Telkom Indonesia Regional III",
+      position: "Intern Staff of RWS Division (Mobile broadband Part)",
+      startYear: "December 2024",
+      endYear: "April 2025",
       responsibilities: [
-        "Mengembangkan dan maintain aplikasi web menggunakan React dan Node.js",
-        "Berkolaborasi dengan tim design untuk implementasi UI/UX",
-        "Melakukan code review dan mentoring junior developer",
-        "Mengoptimasi performa aplikasi hingga 40% lebih cepat"
+        "Placed in Mobile Broadband section in RWS Division",
+        "Daily work in web testing and troubleshooting, and internal database management",
+        "Fetch operator data from central database and site report",
+        "Add fetched data to internal database",
+        "Study at neucentrix datacenter",
+        "Create desktop application for PDF document processor and telegram bot for internship project"
       ]
     },
     {
       id: 2,
-      company: "Startup Digital",
-      position: "Frontend Developer Intern",
-      startYear: 2021,
-      endYear: 2022,
+      company: "Mutimedia and IOT laboratory ITS",
+      position: "Administrator of Basic Programming Practicum 2024",
+      startYear: "July 2024",
+      endYear: "December 2024",
       responsibilities: [
-        "Membuat komponen reusable dengan React",
-        "Implementasi responsive design untuk berbagai device",
-        "Integrasi API dengan backend team"
+        "Together with coordinator of practicum creating and apply basic rules to all activities of Practicum",
+        "Manage processing time and monitor the work of other divisions in the practicum",
+        "Together with Secretary Division creating schedule for both participants and practicum assistants",
+        "Become the administrator of the connecting platform between participants and assistants",
+        "Scheduling Technical Meeting to informing update information about activities to 350+ participants",
+        "Manage all administrative needs for both assistants and participants"
+      ]
+    },
+
+    {
+      id: 3,
+      company: "Mutimedia and IOT laboratory ITS",
+      position: "Assistant for Basic Programming Practicum 2024",
+      startYear: "September 2024",
+      endYear: "December 2024",
+      responsibilities: [
+        "Assisted in guiding students during basic programming practical session",
+        "Prepared and maintained lab equipment, configured hardware and software setups",
+        "Carry out assessments and evaluations of practitioner performance",
       ]
     }
   ],
   contact: {
     email: "email@example.com",
-    github: "https://github.com/yourusername",
-    linkedin: "https://linkedin.com/in/yourusername"
+    github: "https://github.com/RifanDK",
+    linkedin: "https://www.linkedin.com/in/rifan-dana-kusuma-472341251/"
   }
 };
 
