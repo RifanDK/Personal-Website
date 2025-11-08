@@ -9,7 +9,7 @@ const PORTOFOLIO_DATA = {
   overview: {
     name: "RIFAN DANA KUSUMA",
     title: "FRESH GRADUATE OF COMPUTER ENGINEERING PROGRAM",
-    description: "I am a Computer Engineering graduate from ITS with a focus on IoT, Machine Learning, and Computer Vision. Experienced in data analysis (Python, Tableau) and backend development (Node.js, Flask), I have developed AI-powered IoT systems that connect real-world sensors with intelligent Machine Learning models. I am passionate about delivering innovative and practical technology solutions while continuously improving my skills in collaborative, fast-paced environments.",
+    description: "I am a Computer Engineering graduate from ITS with a focus on IoT, Machine Learning, and Computer Vision. Experienced in data analysis (Python, Tableau, Looker Studio) and backend development (Node.js, Flask), I have developed AI-powered IoT systems that connect real-world sensors with intelligent Machine Learning models. I am passionate about delivering innovative and practical technology solutions while continuously improving my skills in collaborative, fast-paced environments.",
     image: "http://localhost:5173/self_pic.png"
   },
   education: [
