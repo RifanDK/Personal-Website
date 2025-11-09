@@ -13,7 +13,7 @@
 | **Styling** | Tailwind CSS |
 | **Animation** | Framer Motion |
 | **Icons** | Lucide React |
-| **Deployment** | GitHub Pages / Vercel |
+| **Deployment** | Vercel |
 
 ---
 
